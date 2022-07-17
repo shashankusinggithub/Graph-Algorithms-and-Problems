@@ -2,8 +2,7 @@ def find(x):
     if parent[x] == x:
         return x
     else:
-        parent[x] = find(parent[x])
-
+        parent[x] = find(parent[x]) # tree compresttion technique        
 
 
 
@@ -31,4 +30,5 @@ rank = [0 for i in range(N)]
 union(1,2)
 union(2,4)
 union(4,6)
+
 
