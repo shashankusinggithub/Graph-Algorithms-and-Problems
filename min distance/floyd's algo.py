@@ -29,7 +29,7 @@ def floydWarshall(graph):
                 dist[i][j] = min(dist[i][j],
                                  dist[i][k] + dist[k][j]
                                  )
-    print(dist)
+    printSolution(dist)
  
  
 # A utility function to print the solution
